@@ -3,8 +3,8 @@ import json
 import sys
 from pathlib import Path
 from typing import Dict, List
-
 import numpy as np
+
 from luxai_runner.bot import Bot
 from luxai_runner.episode import Episode, EpisodeConfig, ReplayConfig
 from luxai_runner.logger import Logger

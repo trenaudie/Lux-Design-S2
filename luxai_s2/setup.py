@@ -31,7 +31,7 @@ setup(
         "termcolor",
         "matplotlib",
         "pettingzoo",
-        "vec_noise",
+        # "vec_noise",
         "gymnasium",
         "scipy",
     ],

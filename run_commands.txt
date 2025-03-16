@@ -1,0 +1,1 @@
+luxai-s2 kits/python/agent.py kits/python/agent.py -v 2 -o replay.json

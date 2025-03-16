@@ -1,0 +1,19 @@
+/opt/conda/envs/myenv/bin/python3.9
+Traceback (most recent call last):
+  File "/opt/conda/envs/myenv/bin/luxai-s2", line 33, in <module>
+    sys.exit(load_entry_point('luxai-s2', 'console_scripts', 'luxai-s2')())
+  File "/opt/conda/envs/myenv/bin/luxai-s2", line 25, in importlib_load_entry_point
+    return next(matches).load()
+  File "/opt/conda/envs/myenv/lib/python3.9/importlib/metadata.py", line 77, in load
+    module = import_module(match.group('module'))
+  File "/opt/conda/envs/myenv/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/root/Lux-Design-S2/luxai_s2/luxai_runner/cli.py", line 11, in <module>
+    import vec_noise
+ModuleNotFoundError: No module named 'vec_noise'
